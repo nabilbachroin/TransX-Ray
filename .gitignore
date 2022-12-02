@@ -1,5 +1,9 @@
-/home/cries/Workshop/X-Ray/TransX-Ray/src/output_weights/
-/home/cries/Workshop/X-Ray/TransX-Ray/jeremie/output_weights/
-/home/cries/Workshop/X-Ray/TransX-Ray/jeremie/chexnet_pretrained/CheXNet_weights.h5
 *.h5
 *.hdf5
+src/output_weights/
+jeremie/output_weights/
+
+jeremie/chexnet_pretrained/*
+!jeremie/chexnet_pretrained/ChexNet.ipynb
+!jeremie/chexnet_pretrained/util.py
+!jeremie/chexnet_pretrained/ViT.ipynb
