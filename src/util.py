@@ -179,3 +179,5 @@ def generate_class_weights(class_series, multi_class=True, one_hot_encoded=False
     class_weights = [n_samples / (n_classes * freq) if freq > 0 else 1 for freq in class_count]
     class_labels = range(len(class_weights)) if mlb is None else mlb.classes_
     return dict(zip(class_labels, class_weights))
+
+
